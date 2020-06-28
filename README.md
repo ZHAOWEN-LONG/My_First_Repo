@@ -28,4 +28,4 @@ view(example)
 
 Learnt codes in Git:
 
-TBD
+git config --list
