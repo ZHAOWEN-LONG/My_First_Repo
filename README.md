@@ -29,3 +29,7 @@ view(example)
 Learnt codes in Git:
 
 TBD
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Qns: this is not a R file, if i link it to R Studio, what it will show on the R studio?
