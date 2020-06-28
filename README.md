@@ -1,4 +1,4 @@
-# My_First_Repo
+# My_First_Repo_Linked_Back_To_RStudio
 
 My first repository in Github 
 
