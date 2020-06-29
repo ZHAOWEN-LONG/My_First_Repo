@@ -1,0 +1,50 @@
+---
+title: "My_First_RMarkdown"
+author: "ZHAOWEN-LONG"
+date: "2020/6/29"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1. **R Markdown**
+
+### *1.1 Introduction*
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+### *1.2 Sub Description*
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+```{r}
+print("Hello world")
+print("today learnt some syntex of programming language in R Markdown, mainly on formatting R Markdown into pdf")
+print("[link] http://google.com/sg; https://www.youtube.com/watch?v=spr0ZHC2x2o")
+```
+
+## 2. **Including Plots**
+
+You can also embed *plots*, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+Trying out a bullet point below:
+- dash this doesn't turn into a bullet
+
+- change text  
+- bullets    
+- try 3 spacing   and followed by sth else with no spacing at end
+- try 1 spacing only 
+- as long as the sentence starts with - and ends with two spacing, it turns into a bullet point, but i'm not sure whether the formatting will change to a second row with front spacing also   
+
